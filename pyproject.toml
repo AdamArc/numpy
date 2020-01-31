@@ -5,6 +5,7 @@ requires = [
     "wheel",
     "Cython>=0.29.14",  # Note: keep in sync with tools/cythonize.py
 ]
+build-backend = 'setuptools.build_meta'
 
 
 [tool.towncrier]
